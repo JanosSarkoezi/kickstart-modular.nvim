@@ -43,14 +43,6 @@ return {
     lazy = false,
   },
   {
-    'NeogitOrg/neogit',
-    dependencies = {
-      'nvim-lua/plenary.nvim', -- required
-      'sindrets/diffview.nvim', -- optional - Diff integration
-    },
-    config = true,
-  },
-  {
     'jpalardy/vim-slime',
     init = function()
       vim.g.slime_target = 'tmux'
