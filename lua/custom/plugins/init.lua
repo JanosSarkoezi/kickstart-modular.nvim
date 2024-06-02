@@ -5,10 +5,10 @@
 
 return {
   {
-    'FabijanZulj/blame.nvim',
-    config = function()
-      require('blame').setup()
-    end,
+    'JanosSarkoezi/blame.nvim',
+    opts = {
+      blame_options = { '-w' },
+    },
   },
   {
     'stevearc/oil.nvim',
