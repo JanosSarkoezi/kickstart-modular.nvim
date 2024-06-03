@@ -8,7 +8,7 @@ return {
     'JanosSarkoezi/blame.nvim',
     opts = {
       blame_options = { '-w' },
-      colors = { '#7FFF00', '#FF7F24', '#FF4500', '#00BFFF' },
+      colors = { '#A587CA', '#36CEDC', '#8FE968', '#FFEA56', '#FFB750', '#FE797B' },
     },
     init = function()
       vim.keymap.set('n', '<leader>b', ':BlameToggle<CR>', { desc = 'Toggle [B]lame' })
