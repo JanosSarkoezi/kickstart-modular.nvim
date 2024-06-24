@@ -48,4 +48,11 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- vim.api.nvim_create_augroup('xml', { clear = true })
+-- vim.api.nvim_create_autocmd('Filetype', {
+--   group = 'xml',
+--   pattern = { 'html', 'xhtml', 'xml' },
+--   command = 'setlocal foldmethod=indent foldlevelstart=999 foldminlines=0',
+-- })
+
 -- vim: ts=2 sts=2 sw=2 et
